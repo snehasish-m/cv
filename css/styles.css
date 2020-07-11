@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 4rem;
+  font-family: 'Berkshire Swash', cursive;
+  margin: 50 auto 0 auto;
+}
+
+h2 {
+  color: #66BFBF;
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: lightgrey;
+  border-width: 5px;
+  width: 5%;
+  margin: 100px auto;
+}
+
+
+
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.middle-container {
+  margin: 100px auto;
+}
+
+.profile {
+  width: 50%;
+  margin: 100px auto;
+}
+
+.profile-pic {
+  width: 40%;
+}
+
+.skill-img-chatbot {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-img-code {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-img-database {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-row {
+  line-height: 2;
+  margin: 100px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.contact-btn {
+	box-shadow:inset 0 1px 0 0 #97c4fe;
+	background:linear-gradient(to bottom, #11999E 5%, #66BFBF 100%);
+	background-color:#11999E;
+	border-radius:20px;
+	border:0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	padding:10px 24px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #1570cd;
+}
+.contact-btn:hover {
+	background:linear-gradient(to bottom, #1e62d0 5%, #3d94f6 100%);
+	background-color:#1e62d0;
+}
+.contact-btn:active {
+	position:relative;
+	top:1px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.footer-link {
+  margin: 0 20px;
+}
+
+.footer-copyright {
+  margin-top: 50px;
+  color: #EAF6F6;
+  font-weight: bold;
+  font-size: 0.75rem;
+}
